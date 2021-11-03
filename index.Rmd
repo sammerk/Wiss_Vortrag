@@ -63,10 +63,11 @@ style_mono_accent_inverse(
 
 library(xaringanExtra)
 use_logo(
-  image_url = "https://svgshare.com/i/bQV.svg",
+  image_url = "https://apps.samuel-merk.de/data/PHK_2018_Logo_V1_FARBE_NUR_PH.svg",
   width = "80px",
   position = xaringanExtra::css_position(top = "1em", right = "1em")
 )
+
 ```
 
 
@@ -79,6 +80,16 @@ use_logo(
 ---  
 .em14[Samuel Merk | PH Karlsruhe]]  
 
+???
+Sehr geehrte Frau Aufschnaiter, sehr geehrte Mitglieder der Berfufungskommission, liebe Studierende!
+* Zunächst einmal möchte ich mich natürlich ganz herzlich für die Einladung zu diesem Hearing bedanken. 
+* Es ist für mich insofern etwas besonderes/ ...Ich freue mich wirklich sehr im Rahmen eines Auswahlverfahrens zu einer erziehungswiss. W3 Prof. mit dem Schwerpunkt LBF vorzutragen, denn emp. LBF ist das was mir in meiner Forschung am stärksten am herzen liegt und ich folglich am meisten mache.
+* Ich habe mich bemüht einen Vortrag zu gestalten, in dem ich nicht en Detail über ein aktuelles Forschungsprojekt berichte - wie es typisch - für einen Konferenzbeitrag wäre, sondern einen Vortrag der
+    * mir zum einen erlaubt, meine aktuelle Forschung zu präsentieren und 
+    * zum Anderen aber Ihnen erlaubt besser kennenzulernen, welche Gedanken mich zu Leitlinien der Gießener Lehrerbildung die Recherchieren konnte (also *Wissenschaftliche Praxis; Schulische Praxis; Reflexion; Phasenvernetzung*)
+    * Damit hoffe ich also einen Vortrag vorbereitet zu haben, der einerseits ein gegenseitiges Kennenlernen gut möglich macht, andererseits dafür aber bzgl. mancher Befunde und Studien nicht so sehr ins Detail geht.
+    * Dehalb dachte ich mir auch es macht vielleicht Sinn dirkt im Anschluss an den Vortrag einige Minuten für Rückfragen/ANmerkungen einzuplanen, bevor es dann im anschließenden Kommissionsgespräch Vertieft u die sache gegehn wird.
+
 
 ---
 class: middle center
@@ -87,17 +98,27 @@ class: middle center
 --
 ### <i class="fas fa-bullseye"></i> Zum Begriff »Evidenz«
 
+
 --
 ### <i class="fas fa-balance-scale-left"></i> Chancen
 
+???
+* ausgewählte Chancen und Risiken die ich in der EBL sehe dialoisch gegenüberstellen und ... Literatur ... eigene STudien  ...
 --
 ### <i class="fas fa-balance-scale-right"></i> Risiken 
 
 --
-### <i class="fas fa-map-signs"></i> Nebenwirkungen & Resümee
+### <i class="fas fa-map-signs"></i> Resümee
+
+--
+&nbsp;  
+
+.phg[`r icons::icon_style(icons::academicons("open-materials"), fill = "#8cd000")` Folien unter] https://bit.ly/merk011
 
 ???
-evtl. Icons statt Bulletpoints
+* Vortrag klassisch gegliedert
+* Auf zentralen Begriff im Vortragstitel 
+* Dann Chancen und Risiken 
 
 ---
 class: middle center inverse hide_logo
@@ -106,21 +127,24 @@ class: middle center inverse hide_logo
 ---
 ## Etymologie: »Evidenz«
 * Ableitung vom Adjektiv _»evident«_ .cit[(Kluge, 2011, S.263)] 
-* _»evident«_ wurde im 18 Jhd. aus dem lateinischen Adjektiv _»evidens«_,  .cit[(»ersichtlich, augenscheinlich«; Test)] entlehnt.
-* _»evidens«_ wiederum entstammt dem Verb _»videre«_ .cit[(»sehen«, TEST)]
+* _»evident«_ wurde im 18 Jhd. aus dem lateinischen Adjektiv _»evidens«_,  .cit[(»ersichtlich, augenscheinlich«; Hau & Martini, 2012)] entlehnt.
+* _»evidens«_ wiederum entstammt dem Verb _»videre«_ .cit[(»sehen«, Hau & Martini, 2012)]
 
+???
+Recherchiert man die Etymologie von »Evidenz«, stellt man fest, dass
 
 --
 .pull-left[
 ### Verwendung: »Evidenz«
-* _»evidence«_ meint im Englischen _»Nachweis, Beweis, Beleg«_ .cit[(TEST)]
-* _»Evidenz«_ meint jedoch .cit[(Duden, TEST)]
+* _»Evidenz«_ meint jedoch .cit[(Duden, 2020)]
     * unmittelbare Einsichtigkeit oder
     * faktische Gegebenheit oder
     * Ablage oder
     * »empirisch erbrachter Nachweis der Wirksamkeit eines Präparats, einer Therapieform o. Ä.« 
-]
+* _»evidence«_ meint im Englischen _»Nachweis, Beweis, Beleg«_ .cit[(Stark, 2017)]    
+    ]
 
+--
 .pull-right[
 ### Häufigkeit: »Evidenz«
 ```{r, echo = F, fig.height=5}
@@ -180,16 +204,16 @@ ggplot(data_verwendung_evidenz,
 
 
 ]
-???
-DesignIdee: TimeVis
 
-
-???
-Das Problem der (wörtlichen) Übersetzung bzw. der di- rekten Übernahme des Evidenzbegriffs aus dem Engli- schen ist Befürworterinnen und Befürwortern (z. B. Brom- me et al., 2014) wie Kritikerinnen und Kritikern (Bellmann & Müller, 2011; Sandkühler, 2011) evidenzbasierter Päda- gogik bewusst, die Bewertung dieses begrifflichen Prob- lems und die hieraus gezogenen Konsequenzen fallen je- doch sehr unterschiedlich aus (vgl. hierzu auch Thompson, 2014). Der Mainstream der empirischen Bildungsfor- schung und insbesondere Vertreterinnen und Vertreter der Pädagogischen Psychologie begnügen sich damit, das Problem – wenn überhaupt – zu konstatieren (z. B. Bromme
-et al., 2014). Diese Position, die sich traditionell wissen- schaftshistorischer und -theoretischer Reflexionen weit- gehend enthält, wird von erziehungswissenschaftlicher und philosophischer Seite scharf kritisiert (Bellmann & Müller, 2011). Für die Kritikerinnen und Kritiker bildet die begriffliche Problematik den Ausgangspunkt für tief ge- hende erkenntnistheoretische Analysen und die Entwick- lung einer umfassenden Kritik am Vorhaben einer evi- denzbasierten pädagogischen Praxis.
 
 ---
 ## »Evidenz« im Kontext bildungswiss. Forschung
+
+???
+* Ein zentrale Schwierigkeit in der Verwedung der begriffe »E» und »e« ....  stellt wenn deutschsprachige BildungswissenschaftlerInnen allerdings »E» oder »evidenzbasiert« sagen, dann meinen sie allermeistens eben gerade nicht unmittelbat einsichtiges, sondern sie übernehmen die englischsprachige Bedeutung zum deutschen Begriff
+* DAs wird deutlich wenn wir uns 
+
+--
 .pull-left[
 > _[...] wird Evidenz – abweichend von Konzeptionen evidenzbasierter Medizin – pragmatisch im Sinn von „wissenschaftlichem Wissen“ verwendet._  .cit[(Stark, 2017)]
 
@@ -198,38 +222,83 @@ et al., 2014). Diese Position, die sich traditionell wissen- schaftshistorischer
 > _Wenn [...] Daten dazu dienen, Vermutungen, Hypothesen oder Theorien zu stützen – oder zu widerlegen – erhalten sie die Funktion von „Evidenz“._ .cit[(Bromme et al., 2014)] 
 ]
 
+--
 .pull-right[
 ```{r, echo = F, out.width="90%"}
 knitr::include_graphics("img/Evidenzbegriffe.png")
 ```
 ]
 
+
+.phg[`r icons::icon_style(icons::academicons("open-materials"), fill = "#8cd000")` Folien unter] https://bit.ly/merk011
+
+
 ???
-Auf der vorigen Folie hab ich versucht deutlich zu machen, dass die alltagssprachliche Verwendung des Begriffs Evidenz recht heterogen ist - insbesondere durch die Übernahme des Begriffs aus dem Englischen.  
-Allerdings wird er Begriff der »Evidenz« auch im bildungswiss. Kontext ...
+* Eine Position an der sich sehr viel Kritik entzündet hat - berechtigte Kritik, wie ich meine.  
+
+* _Johannes Bellmann_
+*  _Kenneth Howe --> Forshcungsemthodologische Orthodoxie_
 
 ---
-???
-Wenn der »Evidenz«-Begriff - wie auf der vorherigen Folie dargestellt - Wissenschafts- oder Erkenntnistheoretisch unterschiedlich verwendet wird - ist es nur logisch, dass auch daraus abgeleitete Begriffe, Komposita etc. recht unterschiedlich konnotiert sind.
+class: hide_logo
+## »Evidenz« & »evidenzbasiert« im Kontext des Vortrags
 
----
-class: center middle
-```{r, echo = F, out.width="85%", fig.cap='Nach Brown, Schilkamp und Hubers, <span style="color:#8cd000"> (2017) </span>. Eigene Darstellung.'}
+???
+* Wenn Evidenz so unterschiedlich definiert werden kann ist klar ... trasnparent machen auf welche  ...
+* Ich Rainer Bromme, weil breit aber nicht zu breit und weil dann
+* EBL die Bedeutung von XY bekommt
+
+--
+> Anlehnung an Definition von Bromme et al .cit[(2014)]  
+
+--
+
+> Damit wird bekommt »evidenzbasierte Lehrerinnen- und Lehrerbildung« die Bedeutung einer __»Lehrerinnen- und Lehrerbildung, die (auch) auf Evidence Informed Practice vorbereitet«__ zu.
+
+&nbsp;
+
+--
+
+```{r, echo = F, out.width="50%", fig.cap='Nach Brown, Schilkamp und Hubers, <span style="color:#8cd000"> (2017) </span>. Eigene Darstellung.', fig.align='center'}
 knitr::include_graphics("img/EIP.png")
 ```
 
 ???
 Um etwas Struktur in diese unterschiedlichen Konnotation zu bekommen möchte ich für den Rest des Vortrags unter »evidenzbasiert« sowohl das subsumieren was Chris Brown ...
 
+
 ---
 class: middle center inverse hide_logo
 # <i class="fas fa-balance-scale-left"></i> Chancen und  Risiken 
 
 ---
+class: hide_logo
+<center>die folgenden Folien sind alle wie folgt strukturiert</center>
+
+---  
+
+## Risiko/Chance X: ...
+* Herleitung anhand Literatur Y und 
+    * Befund Z
+    * ...
+  
+&nbsp;  
+&nbsp;  
+    
+> These: X stellt Chance/Risiko evidenzbasierte Lehrerinnen und Lehrerbildung dar
+
+&nbsp;  
+&nbsp;  
+
+<i class="fas fa-microscope fa-3x text-info" style="float: left; margin-right:45px; margin-top:15px; color:#8cd000"></i>
+* Aktuelle Forschung von Kolleginnen und Kollegen bzgl. dieses Risikos/dieser Chance und
+* eigene aktuelle Forschung 
+
+---
 ## Risiko I: (Über-)Technisierung von Bildungsprozessen
 * Das Technologieproblem in der Erziehungswissenschaft
-    * Hat eine Lange Tradition <span style="color:#8cd000; font-size:70%"> (Tenorth, 2006)(Hollstein, 2011) </span>
-    * »Strengere« und »mildere« Positionen nach wie vor präsent <span style="color:#8cd000; font-size:70%"> (Hollstein, 2011) </span>
+    * Hat eine Lange Tradition <span style="color:#8cd000; font-size:70%"> (Hollstein, 2011; Tenorth, 2006) </span>
+    * »Strengere« und »mildere« Positionen nach wie vor präsent <span style="color:#8cd000; font-size:p70%"> (Hollstein, 2011) </span>
 &nbsp;  
 &nbsp;  
 
@@ -242,16 +311,16 @@ class: middle center inverse hide_logo
 --
 
 <i class="fas fa-microscope fa-3x text-info" style="float: left; margin-right:45px; margin-top:25px; color:#8cd000"></i>
-* Lehramtsstudierende weisen einen substantiellen Anteil absolutistischer epistemischer Überzeugungen auf .cit[(Merk, 2016)]. 
 * Lehramtsstudierende schreiben sowohl explanativen wie auch deskriptiven Theorien mehrheitlich transfer-artige Relationierung zur Praxis zu .cit[(Schneider, Kulcar, & Merk, submitted)]
+* Lehramtsstudierende weisen einen substantiellen Anteil absolutistischer epistemischer Überzeugungen auf .cit[(Merk, 2016)]. 
+
 
 ???
-Beispiele aus DBDM (FA?) und EIP (Kounin)
-Eine ausführliche Begründung dieses Claims spare ich mir an dieser Stelle, denn es ist mit Blick auf klassische Ansätze der Professionalität oder Probabilistischen Natur oder Grundsätzlichen 
+* Eine ausführliche Begründung dieses Claims spare ich mir an dieser Stelle, denn es ist mit Blick auf klassische Ansätze der Professionalität oder Probabilistischen Natur oder Grundsätzlichen 
 
 
 ---
-## Chance I: Wahrnehmung mit DBDM entzerren
+## Chance I: Wahrnehmung entzerren
 .pull-left[
 <center>
 ```{r, echo=FALSE, fig.cap="Ebbinghaustäuschung<br>(Massaro & Anderson, 1971)", out.width="30%"}
@@ -272,7 +341,7 @@ knitr::include_graphics("img/Ebbinghaus.png")
 &nbsp;  
 
 --
-> Evidenzbasierung im Sinne eines DBDM hat das Potential die professionelle Wahrnehmung zu entzerren bzw. Verzerrungen zu explizieren.
+> Evidenzbasierung hat das Potential die professionelle Wahrnehmung zu entzerren bzw. Verzerrungen zu explizieren.
 
 &nbsp;  
 
@@ -297,8 +366,8 @@ knitr::include_graphics("img/Marsh.png")
 --
 <i class="fas fa-microscope fa-3x text-info" style="float: left; margin-right:55px; margin-bottom:35px; margin-top:35px; color:#8cd000"></i> 
 [<img src="img/sensitivity_beznorm.png" style="float:right" width="70px" />](img/sensitivity_beznorm.png)
-* Im Kontext von VERA wenden Lehrkäfte die kriteriale Bezugsnorm kaum an .cit[(Bez, Poindl, Bohl, & Merk, 2021)]
 * Lehrkräfte halten selbst moderate Effekte nach .cit[(Cohen, 1988)] für unbedeutsam .cit[(Merk, Kelava, & Groß Ophoff, eingereicht)].
+* Im Kontext von VERA wenden Lehrkäfte die kriteriale Bezugsnorm kaum an .cit[(Bez, Poindl, Bohl, & Merk, 2021)].
 
 ---
 ## Chance II: Mythen werden falsifizierbar
@@ -319,7 +388,7 @@ knitr::include_graphics("img/Marsh.png")
 --
 <i class="fas fa-microscope fa-3x text-info" style="float: left; margin-right:55px;  margin-top:35px; color:#8cd000"></i> 
 [<img src="img/change_menz_merk.jpg" style="float:right" width="90px" />](img/change_menz_merk.jpg)
-* Obwohl Lehrkfäfte und Lehramtstudierende zu einer starken Aufwertung persönlicher Erfahrung neigen .cit[(Menz et al., 2020)], induziert die Präsentation von Evidenz (stärkere) Änderungen (als die Präsentation episodischer Evidenz) .cit[(Bohrer, Schmidt, & Merk, eingereicht)].
+* Obwohl Lehrkräfte und Lehramtstudierende zu einer starken Aufwertung persönlicher Erfahrung neigen .cit[(Menz et al., 2020)], induziert die Präsentation von Evidenz (stärkere) Änderungen (als die Präsentation episodischer Evidenz) .cit[(Bohrer, Schmidt, & Merk, eingereicht)].
 
 ---
 ## Risiko III: Verrauschte/Verzerrte Rezeption von Forschung 
@@ -365,8 +434,18 @@ knitr::include_graphics("img/Marsh.png")
 
 ---
 class: middle center inverse hide_logo
-# Nebenwirkungen & Resümee
+# <i class="fas fa-map-signs"></i> Resümee
 
+
+---
+## Resümee
+.em14[
+* »Evidenz« und »Evidenzbasierung« sind schillernde Begriffe, mit sehr unterschiedlichen Konnotationen.
+* Transparente Explikation der eigenen Auffassung der Begriffe ist notwendig für konstruktive Diskussion.
+* Evidenzbasierte Lehrerbildung im Sinne einer Anbahnung von »Evidence Informed Practice« 
+    * birgt Chancen und Risiken, wobei
+    * m.E. die Chancen überwiegen.
+* Zur Anbahnung von »Evidence Informed Practice« ist die Auffassung von Professionalität als Metareflektivität heuristisch.]
 
 ---
 ## Professionalität als Metareflexivität
@@ -374,3 +453,7 @@ class: middle center inverse hide_logo
 knitr::include_graphics("img/metareflexivitaet.png")
 ```
 
+---
+class: middle center
+
+## Herzlichen Dank!
